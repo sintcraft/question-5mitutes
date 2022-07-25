@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://css.gg/chevron-left.css" rel="stylesheet" />
+    <link href="https://css.gg/chevron-right.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Preguntas en 5 minutos</title>
+  </head>
+  <body>
+    <video
+      class="background"
+      src="./background.mp4"
+      autoplay
+      muted
+      loop
+    ></video>
+    <div id="start-panel">
+      <button class="start-btn btn" onclick="start()">Start</button>
+      <span class="questions-count">0 Questions</span>
+    </div>
+    <div id="question-panel">
+      <h3 id="question-title">Question #1</h3>
+      <h5 id="question-content">...................</h5>
+      <div id="time">05:00</div>
+      <button class="prev-btn btn" onclick="prev()">
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M16.2426 6.34317L14.8284 4.92896L7.75739 12L14.8285 19.0711L16.2427 17.6569L10.5858 12L16.2426 6.34317Z"
+            fill="currentColor"
+          /></svg
+        >Prev
+      </button>
+      <button class="next-btn btn" onclick="next()">
+        Next
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M10.5858 6.34317L12 4.92896L19.0711 12L12 19.0711L10.5858 17.6569L16.2427 12L10.5858 6.34317Z"
+            fill="currentColor"
+          />
+        </svg>
+      </button>
+    </div>
+    <div class="sounds">
+      <audio id="audio-start" src="./sounds/start.m4a"></audio>
+      <audio id="audio-prev" src="./sounds/prev.m4a"></audio>
+      <audio id="audio-next" src="./sounds/next.m4a"></audio>
+    </div>
+    <script src="./compiler.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>

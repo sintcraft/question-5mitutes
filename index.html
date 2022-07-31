@@ -55,12 +55,42 @@
         </svg>
       </button>
     </div>
+    <div id="settings">
+      <h5>Ajustes</h5>
+      <div class="panel">
+        <div class="presets p-area">
+          <span>Preset</span>
+          <select name="preset" id="preset-select">
+            <option>OnickRS</option>
+          </select>
+        </div>
+        <div class="time p-area">
+          <span>Tiempo para preguntas</span>
+          <select name="time" id="time-select">
+            <option>1 minuto</option>
+            <option>2 minuto</option>
+            <option>5 minuto</option>
+            <option>10 minuto</option>
+            <option>20 minuto</option>
+          </select>
+        </div>
+        <div class="questions-amount p-area">
+          <span>Cantidad de preguntas</span>
+          <input
+            type="number"
+            name="questions-amount"
+            id="questions-amount"
+            value="100"
+          />
+        </div>
+      </div>
+      <div class="settings-btn btn">Ajustes</div>
+    </div>
     <div class="sounds">
       <audio id="audio-start" src="./sounds/start.m4a"></audio>
       <audio id="audio-prev" src="./sounds/prev.m4a"></audio>
       <audio id="audio-next" src="./sounds/next.m4a"></audio>
     </div>
-    <script src="./compiler.js"></script>
     <script src="./index.js"></script>
   </body>
 </html>

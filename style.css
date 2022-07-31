@@ -122,3 +122,13 @@
   bottom: 10%;
   right: 3%;
 }
+
+#settings {
+  display: none;
+  position: fixed;
+  bottom: 1em;
+  left: 1em;
+  width: 50vw;
+  height: 50vh;
+  z-index: 200;
+}

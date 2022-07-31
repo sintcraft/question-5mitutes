@@ -93,3 +93,22 @@ const restart = () => {
     );
   }, 300);
 };
+
+var questions = [];
+const request = async () => {
+  let data = await fetch("./questions.txt").then((x) => x.text());
+  questions = filter(data.split("\n"));
+  for (let elem of document.getElementsByClassName("questions-count")) {
+    elem.innerHTML = questions.length + " Questions";
+  }
+};
+
+request();
+
+const filter = (texts) => {
+  const resp = [];
+  for (const line of texts) {
+    if (resp.indexOf(line) === -1) resp.push(line);
+  }
+  return resp;
+};

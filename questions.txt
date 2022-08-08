@@ -6,6 +6,7 @@
 ¿Género musical favorito?
 ¿Bebida favorita?
 ¿Actor/actriz favorito?
+¿Forma de entretenimiento favorita?
 ¿Flor favorita?
 ¿Serie favorita?
 ¿Olor favorito?
@@ -14,6 +15,7 @@
 ¿Emoji favorito?
 ¿Deporte favorito?
 ¿Ciudad o campo?
+¿Sofá o silla?
 ¿Te gustaría tener un superpoder?
 ¿Viajarías al futuro o al pasado?
 ¿El secreto más grande que tienes?
@@ -36,6 +38,7 @@
 Descríbete en una palabra
 ¿Cuántos hijos quisieras tener?
 ¿Qué es lo que más te apasiona?
+¿Qué es lo que más te desagrada en una persona?
 ¿Quién es tu ejemplo a seguir?
 ¿Sueño frustrado?
 ¿Qué país quieres visitar?
@@ -106,3 +109,32 @@ Si pudieras postularse para presidente ¿lo harías?
 ¿Canción que más estas escuchando últimamente?
 ¿Eres sociable?
 ¿Chile o Paraguay?
+¿Que estudias o que estudiaste?
+¿Cual es la cosa que mas rápido puedes hacer en comparación a otros?
+¿Que marca de desodorante usas?
+Lo más caro de tu habitación en este momento.
+Lo más tonto que has pensado de pequeño.
+¿Cómo describirías en 3 palabras tu vida en Internet?
+¿Cual es la materia que menos te gusta?
+¿Marca de ropa favorita?
+¿Fruta favorita?
+¿Cual es la cosa más exótica que has comido?
+¿Si pudieras agregar o quitar horas al día cuantas horas tendría?
+¿Eres terraplanista?
+¿Lapiz o lapicero?
+¿En tu calle tienes pista?
+¿Quien creés que ganará el mundial?
+¿Cual o cuales son los generos de música disfrutas más?
+¿Que música odias?
+¿Odias a alguna persona?
+¿En cuanto tiempo podrías hacerte full netherite?
+¿Aproximadamente cuanto dinero tienes ahora mismo a tu dispocición?
+¿Te han doxeado alguna vez?
+¿Eres toxic@?
+¿Eres homófobo?
+¿Que prefieres, llamarte hola696_ o morir?
+¿Apple o android?
+¿Windows, Mac OS o Linux?
+¿Netflix o Disney+?
+¿Primaria, secundaria o universidad cual te gusta más?
+¿Tienes algún juguete +18?

@@ -96,7 +96,7 @@ const restart = () => {
 
 var questions = [];
 const request = async () => {
-  let data = await fetch("./presets/pepoide.txt").then((x) => x.text());
+  let data = await fetch("./presets/jorgegxd.txt").then((x) => x.text());
   questions = filter(data.split("\n"));
   for (let elem of document.getElementsByClassName("questions-count")) {
     elem.innerHTML = questions.length + " Questions";

@@ -1,7 +1,7 @@
 const fs = require("fs");
 
 const config = {
-  name: "tuli.txt",
+  name: "valem4d.txt",
   questions: 100,
 };
 

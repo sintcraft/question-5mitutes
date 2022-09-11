@@ -1,7 +1,7 @@
 const fs = require("fs");
 
 const config = {
-  name: "valem4d.txt",
+  name: "zitro224pk.txt",
   questions: 100,
 };
 

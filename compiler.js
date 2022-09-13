@@ -1,7 +1,7 @@
 const fs = require("fs");
 
 const config = {
-  name: "zitro224pk.txt",
+  name: "monsdx.txt",
   questions: 100,
 };
 

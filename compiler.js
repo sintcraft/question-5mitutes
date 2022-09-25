@@ -1,7 +1,7 @@
 const fs = require("fs");
 
 const config = {
-  name: "dulci.txt",
+  name: "xxmotitaxx.txt",
   questions: 100,
 };
 

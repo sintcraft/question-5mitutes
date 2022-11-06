@@ -1,7 +1,7 @@
 const fs = require("fs");
 
 const config = {
-  name: "blue.txt",
+  name: "pinwixd.txt",
   questions: 100,
 };
 

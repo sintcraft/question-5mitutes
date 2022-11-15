@@ -1,7 +1,7 @@
 const fs = require("fs");
 
 const config = {
-  name: "pinwixd.txt",
+  name: "its_nexiar.txt",
   questions: 100,
 };
 

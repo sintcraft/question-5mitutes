@@ -1,7 +1,7 @@
 const fs = require("fs");
 
 const config = {
-  name: "its_nexiar.txt",
+  name: "tatanpoker.txt",
   questions: 100,
 };
 
